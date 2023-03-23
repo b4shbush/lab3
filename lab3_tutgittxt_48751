@@ -1,0 +1,57 @@
+#!/bin/bash
+Bartosz Kowynia
+48751
+
+1) Wprowadzenie
+a)
+git commit
+git commit
+b)
+git checkout -b bugFix
+c)
+git checkout -b bugFix
+git commit
+git checkout main
+git merge main
+d)
+ git branch bugFix
+ git checkout bugFix
+ git commit
+ git checkout main
+ git commit
+ git checkout bugFix
+ git rebase main
+ 2) ROZKRECENIE
+ git checkout c4
+ b)
+ git branch -f main c6
+ git bracnh -f bugix c0
+ git checkout c1
+ git branch bugFix
+c)
+git reset local~1
+git checkout pushed
+git revert pushed
+3)
+git cherry-pick c3 c4 c7
+4)
+a)
+git checkout main
+git cherry-pick c4
+b)
+git rebase -i caption~2 --aboveAll;
+git commit --amend;
+git rebase -i caption~2 --aboveAll;
+git branch -f master caption;
+c)
+git checkout main;
+git cherry-pick C2;
+git commit --amend;
+git cherry-pick C3;
+d)
+git tag v0 C1;
+git tag v1 C2;
+git checkout C2
+e)
+git commit;
+
